@@ -37,7 +37,3 @@ if __name__ == "__main__":
         results.append(result_line)
     with open("res/output", "wt") as fdw:
         fdw.writelines(results)
-
-
-
-
